@@ -15,7 +15,8 @@ CONFIG += c++11
 
 SOURCES += main.cpp\
         gui/mainwindow.cpp \
-    utils/vector3d.cpp
+    utils/vector3d.cpp \
+    rendering/ray.cpp
 
 HEADERS  += gui/mainwindow.hpp \
     utils/vector3d.hpp \
@@ -23,4 +24,5 @@ HEADERS  += gui/mainwindow.hpp \
     utils/noncopiable.hpp \
     utils/noninstantiable.hpp \
     utils/pimpl.hpp \
-    utils/deep_ptr.hpp
+    utils/deep_ptr.hpp \
+    rendering/ray.hpp
