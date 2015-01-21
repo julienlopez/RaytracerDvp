@@ -14,6 +14,13 @@ TEMPLATE = app
 CONFIG += c++11
 
 SOURCES += main.cpp\
-        gui/mainwindow.cpp
+        gui/mainwindow.cpp \
+    utils/vector3d.cpp
 
-HEADERS  += gui/mainwindow.hpp
+HEADERS  += gui/mainwindow.hpp \
+    utils/vector3d.hpp \
+    utils/make_unique.hpp \
+    utils/noncopiable.hpp \
+    utils/noninstantiable.hpp \
+    utils/pimpl.hpp \
+    utils/deep_ptr.hpp
