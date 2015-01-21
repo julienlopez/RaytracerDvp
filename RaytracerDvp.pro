@@ -16,7 +16,9 @@ CONFIG += c++11
 SOURCES += main.cpp\
         gui/mainwindow.cpp \
     utils/vector3d.cpp \
-    rendering/ray.cpp
+    rendering/ray.cpp \
+    rendering/primitives/iprimitive.cpp \
+    rendering/primitives/sphere.cpp
 
 HEADERS  += gui/mainwindow.hpp \
     utils/vector3d.hpp \
@@ -25,4 +27,6 @@ HEADERS  += gui/mainwindow.hpp \
     utils/noninstantiable.hpp \
     utils/pimpl.hpp \
     utils/deep_ptr.hpp \
-    rendering/ray.hpp
+    rendering/ray.hpp \
+    rendering/primitives/iprimitive.hpp \
+    rendering/primitives/sphere.hpp
