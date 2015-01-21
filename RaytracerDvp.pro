@@ -18,7 +18,8 @@ SOURCES += main.cpp\
     utils/vector3d.cpp \
     rendering/ray.cpp \
     rendering/primitives/iprimitive.cpp \
-    rendering/primitives/sphere.cpp
+    rendering/primitives/sphere.cpp \
+    rendering/scene.cpp
 
 HEADERS  += gui/mainwindow.hpp \
     utils/vector3d.hpp \
@@ -29,4 +30,5 @@ HEADERS  += gui/mainwindow.hpp \
     utils/deep_ptr.hpp \
     rendering/ray.hpp \
     rendering/primitives/iprimitive.hpp \
-    rendering/primitives/sphere.hpp
+    rendering/primitives/sphere.hpp \
+    rendering/scene.hpp
