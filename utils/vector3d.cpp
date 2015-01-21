@@ -57,6 +57,21 @@ vector3d vector3d::normalized() const
     return *this / norm();
 }
 
+double vector3d::x() const
+{
+    return m_values[0];
+}
+
+double vector3d::y() const
+{
+    return m_values[1];
+}
+
+double vector3d::z() const
+{
+    return m_values[2];
+}
+
 vector3d operator+(vector3d v1, const vector3d& v2)
 {
     v1 += v2;

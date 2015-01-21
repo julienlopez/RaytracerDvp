@@ -21,7 +21,8 @@ SOURCES += main.cpp\
     rendering/primitives/sphere.cpp \
     rendering/scene.cpp \
     rendering/raytracer.cpp \
-    image.cpp
+    image.cpp \
+    gui/screen.cpp
 
 HEADERS  += gui/mainwindow.hpp \
     utils/vector3d.hpp \
@@ -35,4 +36,5 @@ HEADERS  += gui/mainwindow.hpp \
     rendering/primitives/sphere.hpp \
     rendering/scene.hpp \
     rendering/raytracer.hpp \
-    image.hpp
+    image.hpp \
+    gui/screen.hpp

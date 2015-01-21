@@ -44,7 +44,7 @@ void Raytracer::setViewer(double width, double height, const vector_t& origin, c
     updateParameters();
 }
 
-void Raytracer::setResolution(unsigned long pixelWidth, unsigned long pixelHeight)
+void Raytracer::setResolution(std::size_t pixelWidth, std::size_t pixelHeight)
 {
     m_pixelWidth = pixelWidth;
     m_pixelHeight = pixelHeight;

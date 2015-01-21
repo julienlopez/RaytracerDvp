@@ -21,7 +21,7 @@ public:
 
     void setViewer(double width, double height, const vector_t& origin, const vector_t& direction);
 
-    void setResolution(unsigned long pixelWidth, unsigned long pixelHeight);
+    void setResolution(std::size_t pixelWidth, std::size_t pixelHeight);
 
 private:
     vector_t m_origin;

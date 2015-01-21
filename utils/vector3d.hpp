@@ -24,6 +24,10 @@ public:
 
     vector3d normalized() const;
 
+    double x() const;
+    double y() const;
+    double z() const;
+
 private:
     std::array<double, 3> m_values;
 };
